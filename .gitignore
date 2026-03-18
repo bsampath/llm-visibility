@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Benchmark / experiment outputs
+results/
+logs/
+*.log
+*.csv
+*.json
+!scripts/**/*.json
+
+# Docker
+.dockerignore
+
+# Prometheus / Grafana data
+data/
+prometheus_data/
+grafana_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets / credentials
+.env
+*.pem
+*.key
+secrets/
